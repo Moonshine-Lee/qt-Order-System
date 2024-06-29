@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TableManager</class>
+ <widget class="QWidget" name="TableManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayoutTableManager">
+   <item>
+    <widget class="QTableWidget" name="tableTableWidget">
+     <column>
+      <property name="text">
+       <string>桌号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayoutTableManagerButtons">
+     <item>
+      <widget class="QPushButton" name="addTableButton">
+       <property name="text">
+        <string>添加餐桌</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editTableButton">
+       <property name="text">
+        <string>编辑餐桌</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteTableButton">
+       <property name="text">
+        <string>删除餐桌</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

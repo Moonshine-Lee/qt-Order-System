@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserManager</class>
+ <widget class="QWidget" name="UserManager">
+  <layout class="QVBoxLayout" name="verticalLayoutUserManager">
+   <item>
+    <widget class="QTableWidget" name="userTableWidget">
+    <column>
+     <property name="text">
+      <string>Id</string>
+     </property>
+     </column>
+      <column>
+       <property name="text">
+        <string>用户名</string>
+      </property>
+      </column>
+     <column>
+      <property name="text">
+        <string>密码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+         <string>权限</string>
+       </property>
+      </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayoutUserManagerButtons">
+     <item>
+      <widget class="QPushButton" name="addUserButton">
+       <property name="text">
+        <string>添加用户</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editUserButton">
+       <property name="text">
+        <string>编辑用户</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteUserButton">
+       <property name="text">
+        <string>删除用户</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

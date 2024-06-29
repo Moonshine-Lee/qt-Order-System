@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuManager</class>
+ <widget class="QWidget" name="MenuManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>238</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayoutUserManager">
+   <item>
+    <widget class="QTableWidget" name="menuTableWidget">
+     <column>
+      <property name="text">
+       <string>Id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>菜品名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>价格</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayoutUserManagerButtons">
+     <item>
+      <widget class="QPushButton" name="addMenuButton">
+       <property name="text">
+        <string>添加菜品</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editMenuButton">
+       <property name="text">
+        <string>编辑菜品</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteMenuButton">
+       <property name="text">
+        <string>删除菜品</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
